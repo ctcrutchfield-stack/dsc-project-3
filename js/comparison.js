@@ -4,8 +4,7 @@ d3.json("data/combined.json").then(data => {
   data.forEach(d => {
     d.date = new Date(d.timestamp);
     d.total_frp = +d.total_frp;
-    d.water_vapor_bt = d.water_vapor_bt == null
-      ? null : +d.water_vapor_bt;
+    d.water_vapor_bt = d.water_vapor_bt == null ? null : +d.water_vapor_bt;
   });
 
   data.sort((a, b) => a.date - b.date);
@@ -13,7 +12,7 @@ d3.json("data/combined.json").then(data => {
   // Graph dimensions
   const width = 800;
   const height = 400;
-  const margin = {top: 30, right: 70, bottom: 55, left: 70};
+  const margin = { top: 35, right: 70, bottom: 60, left: 70 };
 
   const svg = d3.select("#comparison-chart")
     .append("svg")
@@ -41,19 +40,30 @@ d3.json("data/combined.json").then(data => {
     .nice()
     .range([height - margin.bottom, margin.top]);
 
-  // Draw axes
+  // Bottom X-Axis with rotated date labels
   svg.append("g")
-    .attr("transform", `translate(0,${height - margin.bottom})`)
-    .call(d3.axisBottom(x).ticks(6)
-      .tickFormat(d3.utcFormat("%b %d")));
+    .attr("transform", `translate(0, ${height - margin.bottom})`)
+    .call(d3.axisBottom(x).ticks(8).tickFormat(d3.utcFormat("%b %d")))
+    .selectAll("text")
+    .attr("transform", "rotate(-30)")
+    .style("text-anchor", "end")
+    .attr("dx", "-.8em")
+    .attr("dy", ".15em")
+    .attr("fill", "#cccccc");
 
+  // Left Y-Axis
   svg.append("g")
-    .attr("transform", `translate(${margin.left},0)`)
-    .call(d3.axisLeft(yMoisture));
+    .attr("transform", `translate(${margin.left}, 0)`)
+    .call(d3.axisLeft(yMoisture))
+    .selectAll("text")
+    .attr("fill", "#cccccc");
 
+  // Right Y-Axis
   svg.append("g")
-    .attr("transform", `translate(${width - margin.right},0)`)
-    .call(d3.axisRight(yFire));
+    .attr("transform", `translate(${width - margin.right}, 0)`)
+    .call(d3.axisRight(yFire))
+    .selectAll("text")
+    .attr("fill", "#cccccc");
 
   // Moisture line (BLUE)
   const moistureLine = d3.line()
@@ -80,43 +90,47 @@ d3.json("data/combined.json").then(data => {
     .attr("stroke-width", 2.5)
     .attr("d", fireLine);
 
-// Vertical line showing the selected hour
-const selectedTimeLine = svg.append("line")
-  .attr("y1", margin.top)
-  .attr("y2", height - margin.bottom)
-  .attr("stroke", "#ffffff")
-  .attr("stroke-width", 1.5)
-  .attr("stroke-dasharray", "5,5")
-  .attr("opacity", 0.8);
+  // Vertical line showing the selected hour (Scrubber Bar)
+  const selectedTimeLine = svg.append("line")
+    .attr("y1", margin.top)
+    .attr("y2", height - margin.bottom)
+    .attr("stroke", "#ffffff")
+    .attr("stroke-width", 2)
+    .attr("stroke-dasharray", "4,4")
+    .attr("opacity", 0.9);
 
-// Update marker whenever the map slider moves
-window.addEventListener("fireTimeChange", event => {
+  if (data.length > 0) {
+    const initialPos = x(data[0].date);
+    selectedTimeLine.attr("x1", initialPos).attr("x2", initialPos);
+  }
 
-  const selectedDate = new Date(event.detail.timestamp);
-  const position = x(selectedDate);
+  // Update marker whenever the map slider moves
+  window.addEventListener("fireTimeChange", event => {
+    const selectedDate = new Date(event.detail.timestamp);
+    const position = x(selectedDate);
 
-  selectedTimeLine
-    .attr("x1", position)
-    .attr("x2", position);
-});
+    selectedTimeLine
+      .attr("x1", position)
+      .attr("x2", position);
+  });
 
   // Labels
   svg.append("text")
     .attr("x", margin.left)
-    .attr("y", 17)
+    .attr("y", 20)
     .attr("fill", "#00d4ff")
     .attr("font-size", 13)
     .text("Atmospheric temperature reading (K)");
 
   svg.append("text")
     .attr("x", width - margin.right)
-    .attr("y", 17)
+    .attr("y", 20)
     .attr("text-anchor", "end")
     .attr("fill", "#ff6b35")
     .attr("font-size", 13)
     .text("Fire intensity (radiated power, MW)");
 
-  // Hover tooltip
+  // Hover tooltip inside chart
   const tooltip = d3.select("#comparison-chart")
     .append("div")
     .style("position", "absolute")
@@ -127,8 +141,7 @@ window.addEventListener("fireTimeChange", event => {
     .style("pointer-events", "none")
     .style("display", "none");
 
-  d3.select("#comparison-chart")
-    .style("position", "relative");
+  d3.select("#comparison-chart").style("position", "relative");
 
   svg.append("rect")
     .attr("x", margin.left)
@@ -137,10 +150,8 @@ window.addEventListener("fireTimeChange", event => {
     .attr("height", height - margin.top - margin.bottom)
     .attr("fill", "transparent")
     .on("mousemove", function(event) {
-
       const [mx] = d3.pointer(event, this);
-
-      const hoveredDate = x.invert(mx + margin.left);
+      const hoveredDate = x.invert(mx);
 
       const closest = d3.least(
         data,
@@ -164,10 +175,7 @@ window.addEventListener("fireTimeChange", event => {
         .html(`
           <strong>${localTime} PDT</strong><br>
           🔥 FRP: ${closest.total_frp.toFixed(1)} MW<br>
-          💧 Brightness temp:
-          ${closest.water_vapor_bt == null
-            ? "N/A"
-            : closest.water_vapor_bt.toFixed(1) + " K"}
+          💧 Brightness temp: ${closest.water_vapor_bt == null ? "N/A" : closest.water_vapor_bt.toFixed(1) + " K"}
         `);
     })
     .on("mouseleave", () => {

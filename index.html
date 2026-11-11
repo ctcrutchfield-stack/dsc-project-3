@@ -15,42 +15,47 @@
     <p class="subtitle">NOAA GOES-18 Satellite Data | July 24 – August 6, 2024</p>
   </header>
 
-  <div id="map-container"></div>
+  <main class="dashboard-content">
+    <!-- Main Map Container -->
+    <div id="map-container"></div>
 
-  <div id="time-controls">
-  <button id="play-button">▶ Play</button>
+    <!-- Timeline Scrubber & Controls -->
+    <div id="time-controls">
+      <button id="play-button" type="button">▶ Play</button>
 
-  <input
-    type="range"
-    id="time-slider"
-    min="0"
-    max="334"
-    value="0"
-    step="1"
-  >
+      <input
+        type="range"
+        id="time-slider"
+        min="0"
+        max="334"
+        value="0"
+        step="1"
+        aria-label="Time Scrubber Slider"
+      >
 
-  <span id="time-label">Loading...</span>
-</div>
+      <span id="time-label">Loading...</span>
+    </div>
 
-<div id="fire-popup" class="fire-popup">
-    <div class="popup-content">
-
-        <button id="close-popup">✕</button>
+    <!-- Detailed Modal Popup -->
+    <div id="fire-popup" class="fire-popup">
+      <div class="popup-content">
+        <button id="close-popup" type="button" aria-label="Close Popup">✕</button>
 
         <section id="chart-section">
-            <h2>Atmospheric Conditions vs. Fire Intensity</h2>
-            <p>Park Fire | July 24 – August 6, 2024</p>
+          <h2>Atmospheric Conditions vs. Fire Intensity</h2>
+          <p class="subtitle">Park Fire | July 24 – August 6, 2024</p>
 
-            <p class="graph-explanation">
+          <p class="graph-explanation">
             🔵 Blue: Satellite measurement of atmospheric conditions.<br>
             🔥 Orange: How much radiant energy the detected fires release.<br>
             Higher orange spikes mean greater detected fire activity.
-            </p>
-            <div id="comparison-chart"></div>
-        </section>
+          </p>
 
+          <div id="comparison-chart"></div>
+        </section>
+      </div>
     </div>
-</div>
+  </main>
 
   <script src="js/main.js"></script>
   <script src="js/comparison.js"></script>

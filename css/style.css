@@ -1,41 +1,68 @@
-body {
+/* Reset & Viewport Budgeting */
+html, body {
+  height: 100vh;
+  margin: 0;
+  padding: 10px 16px;
+  overflow: hidden; /* Prevents vertical scrollbars */
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   background-color: #121212;
   color: #f0f0f0;
-  margin: 0;
-  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+/* Compact Header */
 header {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 6px;
+  width: 100%;
+  flex-shrink: 0;
 }
 
 h1 {
-  margin: 0 0 8px 0;
-  font-size: 1.8rem;
+  margin: 0 0 2px 0;
+  font-size: clamp(1.2rem, 3vw, 1.6rem);
   color: #ffffff;
 }
 
 p.subtitle {
   margin: 0;
   color: #aaaaaa;
-  font-size: 0.95rem;
+  font-size: clamp(0.75rem, 2vw, 0.85rem);
 }
 
+.dashboard-content {
+  width: 100%;
+  max-width: 1100px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 0;
+}
+
+/* Map Container scaling within viewport */
 #map-container {
-  width: 800px;
-  height: 550px;
+  width: min(1050px, 95vw);
+  flex: 1;
+  min-height: 0;
   background-color: #1a1a1a;
   border: 1px solid #333333;
   border-radius: 8px;
   position: relative;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
 }
 
+#map-container svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Map Features */
 .state-boundary {
   fill: #262626;
   stroke: #444444;
@@ -47,7 +74,8 @@ p.subtitle {
   stroke: #ffae00;
   stroke-width: 0.5px;
   opacity: 0.8;
-  transition: transform 0.2s;
+  cursor: pointer;
+  transition: opacity 0.2s;
 }
 
 .fire-node:hover {
@@ -56,55 +84,36 @@ p.subtitle {
   stroke-width: 1.5px;
 }
 
-
-/* Make the overall dashboard wider */
-body {
-    width: 100%;
-    box-sizing: border-box;
+/* Custom Dynamic Hover Tooltip for Satellite Dots */
+#fire-tooltip {
+  position: absolute;
+  background-color: #ffffff;
+  color: #d32f2f;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: bold;
+  pointer-events: none;
+  display: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  border: 1px solid #ffcdd2;
+  z-index: 500;
+  white-space: nowrap;
 }
 
-/* Larger wildfire map */
-#map-container {
-    width: min(1100px, 95vw);
-    height: auto;
-    aspect-ratio: 800 / 550;
-}
-
-/* Scale the existing SVG with the container */
-#map-container svg {
-    width: 100%;
-    height: 100%;
-}
-
-/* Larger comparison graph */
-#chart-section {
-    width: min(1100px, 95vw);
-    margin: 40px auto;
-    text-align: center;
-}
-
-#comparison-chart {
-    width: 100%;
-    margin-top: 25px;
-}
-
-#comparison-chart svg {
-    width: 100%;
-    max-width: none !important;
-    height: auto;
-}
-
-/* Larger headings */
-#chart-section h2 {
-    font-size: 30px;
-}
-
+/* Dynamic Timeline Control Bar */
 #time-controls {
-  width: min(1100px, 95vw);
+  width: min(1050px, 95vw);
+  flex-shrink: 0;
   display: flex;
   align-items: center;
-  gap: 20px;
-  margin: 20px auto 40px;
+  gap: 15px;
+  margin-top: 8px;
+  background: #1a1a1a;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #333333;
+  box-sizing: border-box;
 }
 
 #time-slider {
@@ -118,85 +127,86 @@ body {
   color: white;
   border: none;
   border-radius: 6px;
-  padding: 10px 18px;
+  padding: 8px 14px;
   cursor: pointer;
   font-weight: bold;
 }
 
+#play-button:hover {
+  background: #e05522;
+}
+
 #time-label {
   color: white;
-  min-width: 230px;
-  font-size: 14px;
+  min-width: 220px;
+  font-size: 13px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
 }
 
-@media (max-width: 650px) {
-  #time-controls {
-    flex-wrap: wrap;
-  }
-
-  #time-slider {
-    flex-basis: 100%;
-    order: 3;
-  }
-}
-
-
-#map-container svg {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-
+/* Modal Popup */
 .fire-popup {
-    display: none;
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.8);
-    z-index: 1000;
-    justify-content: center;
-    align-items: center;
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(4px);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
 }
 
 .popup-content {
-    background: #181818;
-    color: white;
-    width: min(1100px, 95vw);
-    max-height: 90vh;
-    overflow-y: auto;
-    padding: 25px;
-    border-radius: 15px;
-    position: relative;
-    box-sizing: border-box;
+  background: #181818;
+  color: white;
+  width: min(950px, 95vw);
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 25px 20px 20px;
+  border-radius: 12px;
+  border: 1px solid #333333;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
 }
 
 #close-popup {
-    position: absolute;
-    right: 15px;
-    top: 10px;
-    background: #ff5722;
-    border: none;
-    color: white;
-    font-size: 20px;
-    padding: 8px 13px;
-    border-radius: 6px;
-    cursor: pointer;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background: #ff5722;
+  border: none;
+  color: white;
+  font-size: 18px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #chart-section {
-    width: 100%;
-    margin: 20px auto;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#comparison-chart {
+  width: 100%;
+  margin-top: 10px;
 }
 
 #comparison-chart svg {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .graph-explanation {
-    color: #cccccc;
-    font-size: 14px;
-    line-height: 1.7;
-    text-align: center;
-    margin: 12px auto 20px;
+  color: #cccccc;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin: 8px auto 12px;
 }
