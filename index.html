@@ -12,11 +12,47 @@
 <body>
   <header>
     <h1>California Wildfire Thermal Anomaly Tracker</h1>
-    <p class="subtitle">NOAA GOES-16 Satellite Data Demonstration Prototype</p>
+    <p class="subtitle">NOAA GOES-18 Satellite Data | July 24 – August 6, 2024</p>
   </header>
 
   <div id="map-container"></div>
 
+  <div id="time-controls">
+  <button id="play-button">▶ Play</button>
+
+  <input
+    type="range"
+    id="time-slider"
+    min="0"
+    max="334"
+    value="0"
+    step="1"
+  >
+
+  <span id="time-label">Loading...</span>
+</div>
+
+<div id="fire-popup" class="fire-popup">
+    <div class="popup-content">
+
+        <button id="close-popup">✕</button>
+
+        <section id="chart-section">
+            <h2>Atmospheric Conditions vs. Fire Intensity</h2>
+            <p>Park Fire | July 24 – August 6, 2024</p>
+
+            <p class="graph-explanation">
+            🔵 Blue: Satellite measurement of atmospheric conditions.<br>
+            🔥 Orange: How much radiant energy the detected fires release.<br>
+            Higher orange spikes mean greater detected fire activity.
+            </p>
+            <div id="comparison-chart"></div>
+        </section>
+
+    </div>
+</div>
+
   <script src="js/main.js"></script>
+  <script src="js/comparison.js"></script>
 </body>
 </html>

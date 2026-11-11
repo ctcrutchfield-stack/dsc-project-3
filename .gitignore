@@ -1,0 +1,7 @@
+# Large raw satellite files
+data/raw_fire/
+data/raw_moisture/
+
+# Python temporary files
+__pycache__/
+*.pyc

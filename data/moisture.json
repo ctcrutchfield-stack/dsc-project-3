@@ -1,0 +1,1677 @@
+[
+  {
+    "timestamp": "2024-07-24T00:00:01+00:00",
+    "water_vapor_bt": 239.3043212890625,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-24T01:00:01+00:00",
+    "water_vapor_bt": 239.3871307373047,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-24T02:00:01+00:00",
+    "water_vapor_bt": 239.33473205566406,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-24T03:00:01+00:00",
+    "water_vapor_bt": 238.9764404296875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-24T04:00:01+00:00",
+    "water_vapor_bt": 239.01197814941406,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-24T05:00:01+00:00",
+    "water_vapor_bt": 239.0136260986328,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-24T06:00:01+00:00",
+    "water_vapor_bt": 239.0254669189453,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-24T07:00:01+00:00",
+    "water_vapor_bt": 239.78765869140625,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-24T08:00:01+00:00",
+    "water_vapor_bt": 239.3246307373047,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-24T09:00:01+00:00",
+    "water_vapor_bt": 239.66427612304688,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-24T10:00:01+00:00",
+    "water_vapor_bt": 240.07833862304688,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-24T11:00:01+00:00",
+    "water_vapor_bt": 239.5003662109375,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-24T12:00:01+00:00",
+    "water_vapor_bt": 239.78598022460938,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-24T13:00:01+00:00",
+    "water_vapor_bt": 240.4704132080078,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-24T14:00:01+00:00",
+    "water_vapor_bt": 241.38978576660156,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-24T15:00:01+00:00",
+    "water_vapor_bt": 243.0240020751953,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-24T16:00:01+00:00",
+    "water_vapor_bt": 243.9180145263672,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-24T17:00:01+00:00",
+    "water_vapor_bt": 244.833984375,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-24T18:00:01+00:00",
+    "water_vapor_bt": 245.32408142089844,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-24T19:00:01+00:00",
+    "water_vapor_bt": 245.38998413085938,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-24T20:00:01+00:00",
+    "water_vapor_bt": 244.99960327148438,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-24T21:00:01+00:00",
+    "water_vapor_bt": 245.3730926513672,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-24T22:00:01+00:00",
+    "water_vapor_bt": 245.46603393554688,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-24T23:00:01+00:00",
+    "water_vapor_bt": 245.9375457763672,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-25T00:00:01+00:00",
+    "water_vapor_bt": 246.5121612548828,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-25T01:00:01+00:00",
+    "water_vapor_bt": 246.46144104003906,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-25T02:00:01+00:00",
+    "water_vapor_bt": 246.3955535888672,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-25T03:00:01+00:00",
+    "water_vapor_bt": 246.35838317871094,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-25T04:00:01+00:00",
+    "water_vapor_bt": 246.10316467285156,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-25T05:00:01+00:00",
+    "water_vapor_bt": 246.18768310546875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-25T06:00:01+00:00",
+    "water_vapor_bt": 246.06430053710938,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-25T07:00:01+00:00",
+    "water_vapor_bt": 245.83106994628906,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-25T08:00:01+00:00",
+    "water_vapor_bt": 245.2294464111328,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-25T09:00:01+00:00",
+    "water_vapor_bt": 245.8378448486328,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-25T10:00:01+00:00",
+    "water_vapor_bt": 246.3938446044922,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-25T11:00:01+00:00",
+    "water_vapor_bt": 246.38539123535156,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-25T12:00:01+00:00",
+    "water_vapor_bt": 246.78929138183594,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-25T13:00:01+00:00",
+    "water_vapor_bt": 246.6118621826172,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-25T14:00:01+00:00",
+    "water_vapor_bt": 246.80958557128906,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-25T15:00:01+00:00",
+    "water_vapor_bt": 246.6912841796875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-25T16:00:01+00:00",
+    "water_vapor_bt": 247.07998657226562,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-25T17:00:01+00:00",
+    "water_vapor_bt": 247.12562561035156,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-25T18:00:01+00:00",
+    "water_vapor_bt": 247.35037231445312,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-25T19:00:01+00:00",
+    "water_vapor_bt": 247.3842010498047,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-25T20:00:01+00:00",
+    "water_vapor_bt": 247.71710205078125,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-25T21:00:01+00:00",
+    "water_vapor_bt": 247.77456665039062,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-25T22:00:01+00:00",
+    "water_vapor_bt": 247.8641357421875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-25T23:00:01+00:00",
+    "water_vapor_bt": 247.84046936035156,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-26T00:00:01+00:00",
+    "water_vapor_bt": 247.75091552734375,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-26T01:00:01+00:00",
+    "water_vapor_bt": 247.98751831054688,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-26T02:00:01+00:00",
+    "water_vapor_bt": 248.53338623046875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-26T03:00:01+00:00",
+    "water_vapor_bt": 248.87982177734375,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-26T04:00:01+00:00",
+    "water_vapor_bt": 249.16712951660156,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-26T05:00:01+00:00",
+    "water_vapor_bt": 249.43243408203125,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-26T06:00:01+00:00",
+    "water_vapor_bt": 249.61160278320312,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-26T07:00:01+00:00",
+    "water_vapor_bt": 249.66567993164062,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-26T08:00:01+00:00",
+    "water_vapor_bt": 249.62176513671875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-26T09:00:01+00:00",
+    "water_vapor_bt": 249.46795654296875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-26T10:00:01+00:00",
+    "water_vapor_bt": 249.27865600585938,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-26T11:00:01+00:00",
+    "water_vapor_bt": 249.0200958251953,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-26T12:00:01+00:00",
+    "water_vapor_bt": 248.53677368164062,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-26T13:00:01+00:00",
+    "water_vapor_bt": 248.1260986328125,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-26T14:00:01+00:00",
+    "water_vapor_bt": 248.13792419433594,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-26T15:00:01+00:00",
+    "water_vapor_bt": 248.24269104003906,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-26T16:00:01+00:00",
+    "water_vapor_bt": 248.08721923828125,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-26T17:00:01+00:00",
+    "water_vapor_bt": 248.05850219726562,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-26T18:00:01+00:00",
+    "water_vapor_bt": 247.90301513671875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-26T19:00:01+00:00",
+    "water_vapor_bt": 247.66473388671875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-26T20:00:01+00:00",
+    "water_vapor_bt": 247.5447235107422,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-26T21:00:01+00:00",
+    "water_vapor_bt": 248.04666137695312,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-26T22:00:01+00:00",
+    "water_vapor_bt": 248.7362060546875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-26T23:00:01+00:00",
+    "water_vapor_bt": 248.26466369628906,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-27T00:00:01+00:00",
+    "water_vapor_bt": 248.06524658203125,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-27T01:00:01+00:00",
+    "water_vapor_bt": 248.13792419433594,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-27T02:00:01+00:00",
+    "water_vapor_bt": 248.21226501464844,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-27T03:00:01+00:00",
+    "water_vapor_bt": 248.44044494628906,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-27T04:00:01+00:00",
+    "water_vapor_bt": 248.6685791015625,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-27T05:00:01+00:00",
+    "water_vapor_bt": 249.64877319335938,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-27T06:00:01+00:00",
+    "water_vapor_bt": 249.99859619140625,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-27T07:00:01+00:00",
+    "water_vapor_bt": 249.21444702148438,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-27T08:00:01+00:00",
+    "water_vapor_bt": 248.9575653076172,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-27T09:00:01+00:00",
+    "water_vapor_bt": 248.4810028076172,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-27T10:00:01+00:00",
+    "water_vapor_bt": 248.29002380371094,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-27T11:00:01+00:00",
+    "water_vapor_bt": 248.10581970214844,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-27T12:00:01+00:00",
+    "water_vapor_bt": 246.0068359375,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-27T13:00:01+00:00",
+    "water_vapor_bt": 245.03677368164062,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-27T14:00:01+00:00",
+    "water_vapor_bt": 244.57540893554688,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-27T15:00:01+00:00",
+    "water_vapor_bt": 244.26107788085938,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-27T16:00:01+00:00",
+    "water_vapor_bt": 244.3607940673828,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-27T17:00:01+00:00",
+    "water_vapor_bt": 243.8301239013672,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-27T18:00:01+00:00",
+    "water_vapor_bt": 243.1000518798828,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-27T19:00:01+00:00",
+    "water_vapor_bt": 243.81829833984375,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-27T20:00:01+00:00",
+    "water_vapor_bt": 244.07347106933594,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-27T21:00:01+00:00",
+    "water_vapor_bt": 245.30551147460938,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-27T22:00:01+00:00",
+    "water_vapor_bt": 245.2328338623047,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-27T23:00:01+00:00",
+    "water_vapor_bt": 246.26202392578125,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-28T00:00:01+00:00",
+    "water_vapor_bt": 244.34725952148438,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-28T01:00:01+00:00",
+    "water_vapor_bt": 242.89894104003906,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-28T02:00:01+00:00",
+    "water_vapor_bt": 242.26687622070312,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-28T03:00:01+00:00",
+    "water_vapor_bt": 241.92213439941406,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-28T04:00:01+00:00",
+    "water_vapor_bt": 241.4996337890625,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-28T05:00:01+00:00",
+    "water_vapor_bt": 241.5925750732422,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-28T06:00:01+00:00",
+    "water_vapor_bt": 241.14137268066406,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-28T07:00:01+00:00",
+    "water_vapor_bt": 241.20729064941406,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-28T08:00:01+00:00",
+    "water_vapor_bt": 241.81056213378906,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-28T09:00:01+00:00",
+    "water_vapor_bt": 241.9390106201172,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-28T10:00:01+00:00",
+    "water_vapor_bt": 242.1992950439453,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-28T11:00:01+00:00",
+    "water_vapor_bt": 242.32095336914062,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-28T12:00:01+00:00",
+    "water_vapor_bt": 242.75527954101562,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-28T13:00:01+00:00",
+    "water_vapor_bt": 242.79754638671875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-28T14:00:01+00:00",
+    "water_vapor_bt": 243.11863708496094,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-28T15:00:01+00:00",
+    "water_vapor_bt": 243.28594970703125,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-28T16:00:01+00:00",
+    "water_vapor_bt": 243.42620849609375,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-28T17:00:01+00:00",
+    "water_vapor_bt": 243.5985870361328,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-28T18:00:01+00:00",
+    "water_vapor_bt": 243.47354125976562,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-28T19:00:01+00:00",
+    "water_vapor_bt": 243.5546417236328,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-28T20:00:01+00:00",
+    "water_vapor_bt": 243.46002197265625,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-28T21:00:01+00:00",
+    "water_vapor_bt": 243.18960571289062,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-28T22:00:01+00:00",
+    "water_vapor_bt": 243.0138702392578,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-28T23:00:01+00:00",
+    "water_vapor_bt": 243.0459747314453,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-29T00:00:01+00:00",
+    "water_vapor_bt": 243.17440795898438,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-29T01:00:01+00:00",
+    "water_vapor_bt": 243.45156860351562,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-29T02:00:01+00:00",
+    "water_vapor_bt": 243.28256225585938,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-29T03:00:01+00:00",
+    "water_vapor_bt": 243.41944885253906,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-29T04:00:01+00:00",
+    "water_vapor_bt": 243.5614013671875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-29T05:00:01+00:00",
+    "water_vapor_bt": 243.53945922851562,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-29T06:00:01+00:00",
+    "water_vapor_bt": 243.58509826660156,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-29T07:00:01+00:00",
+    "water_vapor_bt": 243.6138153076172,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-29T08:00:01+00:00",
+    "water_vapor_bt": 243.51242065429688,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-29T09:00:01+00:00",
+    "water_vapor_bt": 243.48707580566406,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-29T10:00:01+00:00",
+    "water_vapor_bt": 243.72872924804688,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-29T11:00:01+00:00",
+    "water_vapor_bt": 243.80477905273438,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-29T12:00:01+00:00",
+    "water_vapor_bt": 243.9906768798828,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-29T13:00:01+00:00",
+    "water_vapor_bt": 243.77098083496094,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-29T14:00:01+00:00",
+    "water_vapor_bt": 243.97885131835938,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-29T15:00:01+00:00",
+    "water_vapor_bt": 245.96966552734375,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-29T16:00:01+00:00",
+    "water_vapor_bt": 246.38876342773438,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-29T17:00:01+00:00",
+    "water_vapor_bt": 246.06600952148438,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-29T18:00:01+00:00",
+    "water_vapor_bt": 245.60968017578125,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-29T19:00:01+00:00",
+    "water_vapor_bt": 244.47064208984375,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-29T20:00:01+00:00",
+    "water_vapor_bt": 243.61549377441406,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-29T21:00:01+00:00",
+    "water_vapor_bt": 242.7891082763672,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-29T22:00:01+00:00",
+    "water_vapor_bt": 241.73452758789062,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-29T23:00:01+00:00",
+    "water_vapor_bt": 241.73452758789062,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-30T00:00:01+00:00",
+    "water_vapor_bt": 240.9284210205078,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-30T01:00:01+00:00",
+    "water_vapor_bt": 239.25869750976562,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-30T02:00:01+00:00",
+    "water_vapor_bt": 238.06216430664062,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-30T03:00:01+00:00",
+    "water_vapor_bt": 236.5090789794922,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-30T04:00:01+00:00",
+    "water_vapor_bt": 235.97674560546875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-30T05:00:01+00:00",
+    "water_vapor_bt": 235.2382049560547,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-30T06:00:01+00:00",
+    "water_vapor_bt": 234.6247100830078,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-30T07:00:01+00:00",
+    "water_vapor_bt": 234.15658569335938,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-30T08:00:01+00:00",
+    "water_vapor_bt": 234.2208251953125,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-30T09:00:01+00:00",
+    "water_vapor_bt": 234.2935028076172,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-30T10:00:01+00:00",
+    "water_vapor_bt": 233.8777313232422,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-30T11:00:01+00:00",
+    "water_vapor_bt": 233.8675994873047,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-30T12:00:01+00:00",
+    "water_vapor_bt": 234.2917938232422,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-30T13:00:01+00:00",
+    "water_vapor_bt": 235.4798583984375,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-30T14:00:01+00:00",
+    "water_vapor_bt": 237.75291442871094,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-30T15:00:01+00:00",
+    "water_vapor_bt": 239.46656799316406,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-30T16:00:01+00:00",
+    "water_vapor_bt": 240.31663513183594,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-30T17:00:01+00:00",
+    "water_vapor_bt": 240.3267822265625,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-30T19:02:06+00:00",
+    "water_vapor_bt": 240.66476440429688,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-30T20:00:01+00:00",
+    "water_vapor_bt": 240.80673217773438,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-30T21:00:01+00:00",
+    "water_vapor_bt": 240.75941467285156,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-30T22:00:01+00:00",
+    "water_vapor_bt": 240.80673217773438,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-30T23:00:01+00:00",
+    "water_vapor_bt": 240.71038818359375,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-31T00:00:01+00:00",
+    "water_vapor_bt": 240.58535766601562,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-31T01:00:01+00:00",
+    "water_vapor_bt": 240.74252319335938,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-31T02:00:01+00:00",
+    "water_vapor_bt": 240.619140625,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-31T03:00:01+00:00",
+    "water_vapor_bt": 240.4991455078125,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-31T04:00:01+00:00",
+    "water_vapor_bt": 240.41299438476562,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-31T05:00:01+00:00",
+    "water_vapor_bt": 240.6072998046875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-31T06:00:01+00:00",
+    "water_vapor_bt": 240.73068237304688,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-31T07:00:01+00:00",
+    "water_vapor_bt": 241.07037353515625,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-31T08:00:01+00:00",
+    "water_vapor_bt": 241.15994262695312,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-31T09:00:01+00:00",
+    "water_vapor_bt": 241.26979064941406,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-31T10:00:01+00:00",
+    "water_vapor_bt": 241.4370880126953,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-31T11:00:01+00:00",
+    "water_vapor_bt": 241.2782440185547,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-31T12:00:01+00:00",
+    "water_vapor_bt": 241.2241668701172,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-31T13:00:01+00:00",
+    "water_vapor_bt": 240.94190979003906,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-31T14:00:01+00:00",
+    "water_vapor_bt": 241.04840087890625,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-31T15:00:01+00:00",
+    "water_vapor_bt": 241.0737762451172,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-31T16:00:01+00:00",
+    "water_vapor_bt": 241.56382751464844,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-31T17:00:01+00:00",
+    "water_vapor_bt": 241.7801513671875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-31T18:00:01+00:00",
+    "water_vapor_bt": 243.0273895263672,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-31T19:00:01+00:00",
+    "water_vapor_bt": 244.4638671875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-31T20:00:01+00:00",
+    "water_vapor_bt": 246.0237274169922,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-31T21:00:01+00:00",
+    "water_vapor_bt": 246.02206420898438,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-31T22:00:01+00:00",
+    "water_vapor_bt": 244.99623107910156,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-07-31T23:00:01+00:00",
+    "water_vapor_bt": 242.87867736816406,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-01T00:00:01+00:00",
+    "water_vapor_bt": 241.41851806640625,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-01T01:00:01+00:00",
+    "water_vapor_bt": 240.76449584960938,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-01T02:00:01+00:00",
+    "water_vapor_bt": 240.42478942871094,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-01T03:00:01+00:00",
+    "water_vapor_bt": 240.09014892578125,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-01T04:00:01+00:00",
+    "water_vapor_bt": 239.7623291015625,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-01T05:00:01+00:00",
+    "water_vapor_bt": 240.40618896484375,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-01T06:00:01+00:00",
+    "water_vapor_bt": 238.7449188232422,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-01T07:00:01+00:00",
+    "water_vapor_bt": 238.67901611328125,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-01T08:00:01+00:00",
+    "water_vapor_bt": 237.56869506835938,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-01T09:00:01+00:00",
+    "water_vapor_bt": 237.31689453125,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-01T10:00:01+00:00",
+    "water_vapor_bt": 237.30335998535156,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-01T11:00:01+00:00",
+    "water_vapor_bt": 237.4740447998047,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-01T12:00:01+00:00",
+    "water_vapor_bt": 238.33934020996094,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-01T13:00:01+00:00",
+    "water_vapor_bt": 238.5370635986328,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-01T14:00:01+00:00",
+    "water_vapor_bt": 238.7821044921875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-01T15:00:01+00:00",
+    "water_vapor_bt": 240.64109802246094,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-01T16:00:01+00:00",
+    "water_vapor_bt": 242.52206420898438,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-01T17:00:01+00:00",
+    "water_vapor_bt": 242.94119262695312,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-01T18:00:01+00:00",
+    "water_vapor_bt": 243.23526000976562,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-01T19:00:01+00:00",
+    "water_vapor_bt": 242.91246032714844,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-01T20:00:01+00:00",
+    "water_vapor_bt": 243.28424072265625,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-01T21:00:01+00:00",
+    "water_vapor_bt": 241.93731689453125,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-01T22:00:01+00:00",
+    "water_vapor_bt": 242.62179565429688,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-01T23:00:01+00:00",
+    "water_vapor_bt": 243.2132568359375,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-02T00:00:01+00:00",
+    "water_vapor_bt": 242.51023864746094,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-02T01:00:01+00:00",
+    "water_vapor_bt": 241.8240966796875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-02T02:00:01+00:00",
+    "water_vapor_bt": 238.81759643554688,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-02T03:00:01+00:00",
+    "water_vapor_bt": 240.39605712890625,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-02T04:00:01+00:00",
+    "water_vapor_bt": 239.8535919189453,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-02T05:00:01+00:00",
+    "water_vapor_bt": 240.0580596923828,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-02T06:00:01+00:00",
+    "water_vapor_bt": 239.3922119140625,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-02T07:00:01+00:00",
+    "water_vapor_bt": 238.72633361816406,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-02T08:00:01+00:00",
+    "water_vapor_bt": 238.3697509765625,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-02T09:00:01+00:00",
+    "water_vapor_bt": 236.42794799804688,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-02T10:00:01+00:00",
+    "water_vapor_bt": 236.3975372314453,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-02T11:00:01+00:00",
+    "water_vapor_bt": 237.65655517578125,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-02T12:00:01+00:00",
+    "water_vapor_bt": 236.69158935546875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-02T13:00:01+00:00",
+    "water_vapor_bt": 234.97962951660156,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-02T14:00:01+00:00",
+    "water_vapor_bt": 236.0004119873047,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-02T15:00:01+00:00",
+    "water_vapor_bt": 236.63412475585938,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-02T16:00:01+00:00",
+    "water_vapor_bt": 236.08993530273438,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-02T17:00:01+00:00",
+    "water_vapor_bt": 234.59767150878906,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-02T18:00:01+00:00",
+    "water_vapor_bt": 235.76885986328125,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-02T19:00:01+00:00",
+    "water_vapor_bt": 235.55929565429688,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-02T20:00:01+00:00",
+    "water_vapor_bt": 234.73626708984375,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-02T21:00:01+00:00",
+    "water_vapor_bt": 233.52622985839844,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-02T22:00:01+00:00",
+    "water_vapor_bt": 231.8953857421875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-02T23:00:01+00:00",
+    "water_vapor_bt": 229.65106201171875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-03T00:00:01+00:00",
+    "water_vapor_bt": 233.27272033691406,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-03T01:00:01+00:00",
+    "water_vapor_bt": 231.8125762939453,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-03T02:00:01+00:00",
+    "water_vapor_bt": 232.9921875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-03T03:00:01+00:00",
+    "water_vapor_bt": 231.71792602539062,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-03T04:00:01+00:00",
+    "water_vapor_bt": 229.86907958984375,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-03T05:00:01+00:00",
+    "water_vapor_bt": 230.8374786376953,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-03T06:00:01+00:00",
+    "water_vapor_bt": 232.32972717285156,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-03T07:00:01+00:00",
+    "water_vapor_bt": 230.7715606689453,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-03T08:00:01+00:00",
+    "water_vapor_bt": 233.494140625,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-03T09:00:01+00:00",
+    "water_vapor_bt": 234.90695190429688,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-03T10:00:01+00:00",
+    "water_vapor_bt": 236.71185302734375,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-03T11:00:01+00:00",
+    "water_vapor_bt": 238.1483612060547,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-03T12:00:01+00:00",
+    "water_vapor_bt": 238.16526794433594,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-03T13:00:01+00:00",
+    "water_vapor_bt": 237.55349731445312,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-03T14:00:01+00:00",
+    "water_vapor_bt": 237.96751403808594,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-03T15:00:01+00:00",
+    "water_vapor_bt": 236.94845581054688,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-03T16:00:01+00:00",
+    "water_vapor_bt": 238.6536865234375,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-03T17:00:01+00:00",
+    "water_vapor_bt": 239.33811950683594,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-03T18:00:01+00:00",
+    "water_vapor_bt": 238.0435791015625,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-03T19:00:01+00:00",
+    "water_vapor_bt": 239.15560913085938,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-03T20:00:01+00:00",
+    "water_vapor_bt": 239.45809936523438,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-03T21:00:01+00:00",
+    "water_vapor_bt": 239.59840393066406,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-03T22:00:01+00:00",
+    "water_vapor_bt": 240.13241577148438,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-03T23:00:01+00:00",
+    "water_vapor_bt": 239.3076934814453,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-04T00:00:01+00:00",
+    "water_vapor_bt": 240.25747680664062,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-04T01:00:01+00:00",
+    "water_vapor_bt": 244.03292846679688,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-04T02:00:01+00:00",
+    "water_vapor_bt": 245.02328491210938,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-04T03:00:01+00:00",
+    "water_vapor_bt": 245.85475158691406,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-04T04:00:01+00:00",
+    "water_vapor_bt": 245.56068420410156,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-04T05:00:01+00:00",
+    "water_vapor_bt": 246.7082061767578,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-04T06:00:01+00:00",
+    "water_vapor_bt": 246.19610595703125,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-04T07:00:01+00:00",
+    "water_vapor_bt": 245.3156280517578,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-04T08:00:01+00:00",
+    "water_vapor_bt": 245.0334014892578,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-04T09:00:01+00:00",
+    "water_vapor_bt": 245.5336456298828,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-04T10:00:01+00:00",
+    "water_vapor_bt": 245.5032196044922,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-04T11:00:01+00:00",
+    "water_vapor_bt": 245.15170288085938,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-04T12:00:01+00:00",
+    "water_vapor_bt": 245.1449432373047,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-04T13:00:01+00:00",
+    "water_vapor_bt": 244.95059204101562,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-04T14:00:01+00:00",
+    "water_vapor_bt": 245.23959350585938,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-04T15:00:01+00:00",
+    "water_vapor_bt": 245.1702880859375,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-04T16:00:01+00:00",
+    "water_vapor_bt": 245.54379272460938,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-04T17:00:01+00:00",
+    "water_vapor_bt": 245.75503540039062,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-04T18:00:01+00:00",
+    "water_vapor_bt": 245.85643005371094,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-04T19:00:01+00:00",
+    "water_vapor_bt": 245.42886352539062,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-04T20:00:01+00:00",
+    "water_vapor_bt": 245.37818908691406,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-04T21:00:01+00:00",
+    "water_vapor_bt": 245.1973419189453,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-04T22:00:01+00:00",
+    "water_vapor_bt": 245.1415557861328,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-04T23:00:01+00:00",
+    "water_vapor_bt": 245.12466430664062,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-05T00:00:01+00:00",
+    "water_vapor_bt": 245.1787567138672,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-05T01:00:01+00:00",
+    "water_vapor_bt": 245.36126708984375,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-05T02:00:01+00:00",
+    "water_vapor_bt": 245.70770263671875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-05T03:00:01+00:00",
+    "water_vapor_bt": 245.6096649169922,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-05T04:00:01+00:00",
+    "water_vapor_bt": 244.3202362060547,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-05T05:00:01+00:00",
+    "water_vapor_bt": 243.0189208984375,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-05T06:00:01+00:00",
+    "water_vapor_bt": 242.4477081298828,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-05T07:00:01+00:00",
+    "water_vapor_bt": 242.62010192871094,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-05T08:00:01+00:00",
+    "water_vapor_bt": 242.78231811523438,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-05T09:00:01+00:00",
+    "water_vapor_bt": 242.3615264892578,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-05T10:00:01+00:00",
+    "water_vapor_bt": 242.5338897705078,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-05T11:00:01+00:00",
+    "water_vapor_bt": 242.6978302001953,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-05T12:00:01+00:00",
+    "water_vapor_bt": 242.26687622070312,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-05T13:00:01+00:00",
+    "water_vapor_bt": 242.4443359375,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-05T14:00:01+00:00",
+    "water_vapor_bt": 242.7384033203125,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-05T15:00:01+00:00",
+    "water_vapor_bt": 243.18963623046875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-05T16:00:01+00:00",
+    "water_vapor_bt": 243.8301239013672,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-05T17:00:01+00:00",
+    "water_vapor_bt": 243.33326721191406,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-05T18:00:01+00:00",
+    "water_vapor_bt": 242.61669921875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-05T19:00:01+00:00",
+    "water_vapor_bt": 242.85330200195312,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-05T20:00:01+00:00",
+    "water_vapor_bt": 243.5698699951172,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-05T21:00:01+00:00",
+    "water_vapor_bt": 244.38107299804688,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-05T22:00:01+00:00",
+    "water_vapor_bt": 245.2362060546875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-05T23:00:01+00:00",
+    "water_vapor_bt": 243.27073669433594,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-06T00:00:01+00:00",
+    "water_vapor_bt": 239.8670654296875,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-06T01:00:01+00:00",
+    "water_vapor_bt": 238.0925750732422,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-06T02:00:01+00:00",
+    "water_vapor_bt": 238.40525817871094,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-06T03:00:01+00:00",
+    "water_vapor_bt": 237.44700622558594,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-06T04:00:01+00:00",
+    "water_vapor_bt": 235.88882446289062,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-06T05:00:01+00:00",
+    "water_vapor_bt": 236.16091918945312,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-06T06:00:01+00:00",
+    "water_vapor_bt": 235.87872314453125,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-06T07:00:01+00:00",
+    "water_vapor_bt": 235.42747497558594,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-06T08:00:01+00:00",
+    "water_vapor_bt": 235.14019775390625,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-06T09:00:01+00:00",
+    "water_vapor_bt": 235.34974670410156,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-06T10:00:01+00:00",
+    "water_vapor_bt": 233.46707153320312,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-06T11:00:01+00:00",
+    "water_vapor_bt": 235.17568969726562,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-06T12:00:01+00:00",
+    "water_vapor_bt": 234.06871032714844,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-06T13:00:01+00:00",
+    "water_vapor_bt": 234.03662109375,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-06T14:00:01+00:00",
+    "water_vapor_bt": 234.63316345214844,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-06T15:00:01+00:00",
+    "water_vapor_bt": 234.88160705566406,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-06T16:00:01+00:00",
+    "water_vapor_bt": 234.88497924804688,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-06T17:00:01+00:00",
+    "water_vapor_bt": 235.86517333984375,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-06T18:00:01+00:00",
+    "water_vapor_bt": 235.3531494140625,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-06T19:00:01+00:00",
+    "water_vapor_bt": 234.61288452148438,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-06T20:00:01+00:00",
+    "water_vapor_bt": 234.66867065429688,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-06T21:00:01+00:00",
+    "water_vapor_bt": 235.24496459960938,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-06T22:00:01+00:00",
+    "water_vapor_bt": 236.36204528808594,
+    "valid_pixels": 25
+  },
+  {
+    "timestamp": "2024-08-06T23:00:01+00:00",
+    "water_vapor_bt": 236.48878479003906,
+    "valid_pixels": 25
+  }
+]
