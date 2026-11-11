@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 3 Write-Up</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .writeup {
+      max-width: 850px;
+      margin: 50px auto;
+      padding: 30px;
+      background: #1b1b1b;
+      border-radius: 12px;
+      line-height: 1.8;
+      text-align: left;
+    }
+
+    .writeup h2 {
+      color: #ffffff;
+      margin-top: 30px;
+    }
+
+    .writeup p, .writeup li {
+      color: #cccccc;
+    }
+
+    .writeup a {
+      color: #00d4ff;
+    }
+
+    .writeup ul {
+      padding-left: 25px;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="writeup">
+    <a href="index.html">← Back to Visualization</a>
+
+    <h1>Project 3 Write-Up</h1>
+
+    <p>
+      Our project, California Wildfire Thermal Anomaly Tracker,
+      explores how atmospheric conditions and wildfire activity
+      changed across California from July 24 to August 6, 2024,
+      using NOAA GOES-18 satellite data.
+    </p>
+
+    <h2>Rationale for Design Decisions</h2>
+
+    <p>
+      Our main idea was to create one interactive map with overlapping
+      data layers so users could see where wildfires occurred and
+      how atmospheric conditions changed over time.
+    </p>
+
+    <p>
+      Originally, water-vapor brightness temperatures were displayed
+      as a grid of blue squares. We later replaced this with smoother
+      D3 contours to make the atmospheric patterns easier to understand.
+      We also expanded our fire detections from the Park Fire region
+      to locations across California.
+    </p>
+
+    <h2>Visual Encodings</h2>
+    <ul>
+      <li><strong>Spatial Position:</strong> Fire detections are
+      plotted geographically across California, highlighting the
+      Park Fire region.</li>
+
+      <li><strong>Color Hue:</strong> Orange represents fire
+      detections, while blue represents atmospheric conditions.</li>
+
+      <li><strong>Color Luminance:</strong> Different shades of blue
+      represent satellite water-vapor brightness temperatures.</li>
+
+      <li><strong>Size:</strong> Larger orange circles indicate
+      greater fire radiative power.</li>
+    </ul>
+
+    <h2>Interaction Techniques</h2>
+    <ul>
+      <li><strong>Temporal Filtering:</strong> A time slider updates
+      fire detections and atmospheric contours hourly.</li>
+
+      <li><strong>Animation:</strong> Play/pause controls show
+      changes over time.</li>
+
+      <li><strong>Zooming and Panning:</strong> Users can explore
+      different California regions.</li>
+
+      <li><strong>Details-on-Demand:</strong> Hovering reveals fire
+      coordinates and radiative power, while clicking the Park Fire
+      marker opens a detailed comparison graph.</li>
+    </ul>
+
+    <h2>Team Development Process</h2>
+    <ul>
+      <li><strong>Canyon:</strong> Created initial exploratory
+      visualizations, set up the repository, helped prepare the
+      checkpoint video, and worked on data preprocessing.</li>
+
+      <li><strong>Owen:</strong> Created additional exploratory
+      graphs, processed NOAA satellite data, and developed the
+      interactive D3 California map and atmospheric contours.</li>
+
+      <li><strong>Nathaniel:</strong> Contributed to development,
+      testing, and interactive improvements including the slider,
+      zooming, tooltips, and Park Fire comparison graph.</li>
+    </ul>
+
+    <p>
+      We spent approximately <strong>20 people-hours</strong>
+      developing the project. The most time-consuming tasks were
+      satellite data processing, coordinate conversion, implementing
+      D3 interactions, and improving animation performance.
+    </p>
+
+    <p>
+      <em>Note: Satellite brightness temperature is not a direct
+      measurement of surface humidity, and observed relationships
+      do not establish causation.</em>
+    </p>
+
+    <a href="index.html">← Return to Interactive Map</a>
+  </main>
+</body>
+</html>
