@@ -1,19 +1,28 @@
-/* Reset & Viewport Budgeting */
-html, body {
-  height: 100vh;
-  margin: 0;
-  padding: 10px 16px;
-  overflow: hidden; /* Prevents vertical scrollbars */
+/* Reset & Base Styling */
+* {
   box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   background-color: #121212;
   color: #f0f0f0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Single-Screen Hero Section for Map + Controls */
+.hero-viewport {
+  height: 100vh;
+  width: 100%;
+  padding: 10px 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* Compact Header */
 header {
   text-align: center;
   margin-bottom: 6px;
@@ -113,7 +122,6 @@ p.subtitle {
   padding: 8px 16px;
   border-radius: 8px;
   border: 1px solid #333333;
-  box-sizing: border-box;
 }
 
 #time-slider {
@@ -142,6 +150,73 @@ p.subtitle {
   font-size: 13px;
   text-align: right;
   font-variant-numeric: tabular-nums;
+}
+
+/* Project Write-Up Section */
+#project-writeup {
+  width: min(1050px, 95vw);
+  margin: 40px auto 60px;
+  padding: 30px;
+  background-color: #1a1a1a;
+  border: 1px solid #333333;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+#project-writeup h2 {
+  margin-top: 0;
+  font-size: 1.7rem;
+  color: #ffffff;
+  border-bottom: 1px solid #333333;
+  padding-bottom: 12px;
+}
+
+#project-writeup .lead {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #dddddd;
+  margin-bottom: 24px;
+}
+
+.writeup-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  gap: 20px;
+}
+
+.writeup-card {
+  background-color: #222222;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #333333;
+}
+
+.writeup-card h3 {
+  margin-top: 0;
+  color: #006aff;
+  font-size: 1.15rem;
+}
+
+.writeup-card p,
+.writeup-card li {
+  color: #cccccc;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.writeup-card ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.writeup-card li {
+  margin-bottom: 8px;
+}
+
+.time-note {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid #333333;
 }
 
 /* Modal Popup */
@@ -209,4 +284,14 @@ p.subtitle {
   font-size: 0.85rem;
   line-height: 1.5;
   margin: 8px auto 12px;
+}
+
+@media (max-width: 650px) {
+  .writeup-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #project-writeup {
+    padding: 20px 15px;
+  }
 }

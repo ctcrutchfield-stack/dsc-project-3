@@ -4,60 +4,115 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>California Wildfire Spatiotemporal Dashboard</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=3">
   <!-- D3.js and TopoJSON CDNs -->
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <script src="https://d3js.org/topojson.v3.min.js"></script>
 </head>
 <body>
-  <header>
-    <h1>California Wildfire Thermal Anomaly Tracker</h1>
-    <p class="subtitle">NOAA GOES-18 Satellite Data | July 24 – August 6, 2024</p>
-  </header>
+  <!-- Single-Screen Hero Dashboard -->
+  <section class="hero-viewport">
+    <header>
+      <h1>California Wildfire Thermal Anomaly Tracker</h1>
+      <p class="subtitle">NOAA GOES-18 Satellite Data | July 24 – August 6, 2024 (Hourly Aggregated Contours &amp; Thermal Detections)</p>
+    </header>
 
-  <main class="dashboard-content">
-    <!-- Main Map Container -->
-    <div id="map-container"></div>
+    <main class="dashboard-content">
+      <!-- Main Map Container -->
+      <div id="map-container"></div>
 
-    <!-- Timeline Scrubber & Controls -->
-    <div id="time-controls">
-      <button id="play-button" type="button">▶ Play</button>
+      <!-- Timeline Scrubber & Controls -->
+      <div id="time-controls">
+        <button id="play-button" type="button">▶ Play</button>
 
-      <input
-        type="range"
-        id="time-slider"
-        min="0"
-        max="334"
-        value="0"
-        step="1"
-        aria-label="Time Scrubber Slider"
-      >
+        <input
+          type="range"
+          id="time-slider"
+          min="0"
+          max="334"
+          value="0"
+          step="1"
+          aria-label="Time Scrubber Slider"
+        >
 
-      <span id="time-label">Loading...</span>
-    </div>
-
-    <!-- Detailed Modal Popup -->
-    <div id="fire-popup" class="fire-popup">
-      <div class="popup-content">
-        <button id="close-popup" type="button" aria-label="Close Popup">✕</button>
-
-        <section id="chart-section">
-          <h2>Atmospheric Conditions vs. Fire Intensity</h2>
-          <p class="subtitle">Park Fire | July 24 – August 6, 2024</p>
-
-          <p class="graph-explanation">
-            🔵 Blue: Satellite measurement of atmospheric conditions.<br>
-            🔥 Orange: How much radiant energy the detected fires release.<br>
-            Higher orange spikes mean greater detected fire activity.
-          </p>
-
-          <div id="comparison-chart"></div>
-        </section>
+        <span id="time-label">Loading...</span>
       </div>
-    </div>
-  </main>
+    </main>
+  </section>
 
-  <script src="js/main.js"></script>
-  <script src="js/comparison.js"></script>
+  <!-- Project Write-Up Section (Below the Fold) -->
+  <article id="project-writeup">
+    <h2>Project 3 Write-Up</h2>
+    <p class="lead">
+      Our project, <strong>California Wildfire Thermal Anomaly Tracker</strong>, explores how atmospheric conditions and wildfire activity changed across California from July 24 to August 6, 2024, using NOAA GOES-18 satellite data.
+    </p>
+
+    <div class="writeup-grid">
+      <section class="writeup-card">
+        <h3>Rationale for Design Decisions</h3>
+        <p>
+          Our main idea was to create one overlaying interactive map because it allows users to see where wildfires occurred and how water vapor conditions changed over time. Originally, the water vapor brightness was displayed through an initial grid of blue squares, but later we turned it into a smoother D3 contour graph to make atmospheric patterns more visually pleasing and easier to understand.
+        </p>
+        <p>
+          Moreover, we initially focused on a small number of fire detections around the Park Fire region before expanding our dataset to include wildfire detections across California from July 24 to August 6, 2024. Raw satellite data was cleaned and aggregated hourly in Python to convert thermal detections into geographic coordinates and smooth contour fields.
+        </p>
+      </section>
+
+      <section class="writeup-card">
+        <h3>Visual Encodings</h3>
+        <ul>
+          <li><strong>Spatial Position:</strong> Fire detections are plotted geographically across California, highlighting the Park Fire region.</li>
+          <li><strong>Color Hue:</strong> Orange represents fire detections, while blue represents atmospheric conditions.</li>
+          <li><strong>Color Luminance:</strong> Different shades of blue represent satellite water-vapor brightness temperatures (Kelvin).</li>
+          <li><strong>Size:</strong> Larger orange circles indicate greater Fire Radiative Power (FRP, in MW).</li>
+        </ul>
+      </section>
+
+      <section class="writeup-card">
+        <h3>Interaction Techniques</h3>
+        <ul>
+          <li><strong>Temporal Filtering:</strong> A time slider updates fire detections and atmospheric contours hourly, synchronized with a vertical reference line on the comparison chart.</li>
+          <li><strong>Animation:</strong> Play/pause controls automatically step through hourly changes over time.</li>
+          <li><strong>Zooming and Panning:</strong> Users can zoom and pan across different regions of California to inspect localized fire clusters.</li>
+          <li><strong>Details-on-Demand:</strong> Hovering over any fire marker reveals its exact Fire Radiative Power (MW), while clicking the Park Fire marker opens a detailed dual-axis time-series comparison graph.</li>
+        </ul>
+      </section>
+
+      <section class="writeup-card">
+        <h3>Team Development Process</h3>
+        <ul>
+          <li><strong>Canyon:</strong> Created initial exploratory visualizations, set up the repository, worked on the checkpoint video, cleaned satellite data using Python, and converted fire detections into geographic coordinates.</li>
+          <li><strong>Owen:</strong> Developed additional exploratory visualizations, processed NOAA satellite data, built the interactive California wildfire map using D3.js, and added water vapor satellite data to the contour graph.</li>
+          <li><strong>Nathaniel:</strong> Contributed to the visualization's development, testing, and overall improvements including adding the time slider, zooming, hover tooltips, and the Park Fire comparison graph.</li>
+        </ul>
+        <p class="time-note">
+          <strong>Development Time &amp; Challenges:</strong> We spent approximately <strong>20 people-hours</strong> developing the project. The most time-consuming tasks were processing raw satellite data, converting fire detections into geographic coordinates, implementing interactive features using D3.js, and refining the animation flow.
+        </p>
+      </section>
+    </div>
+  </article>
+
+  <!-- Detailed Modal Popup -->
+  <div id="fire-popup" class="fire-popup">
+    <div class="popup-content">
+      <button id="close-popup" type="button" aria-label="Close Popup">✕</button>
+
+      <section id="chart-section">
+        <h2>Atmospheric Conditions vs. Fire Intensity</h2>
+        <p class="subtitle">Park Fire | July 24 – August 6, 2024</p>
+
+        <p class="graph-explanation">
+          🔵 Blue: Satellite measurement of atmospheric conditions.<br>
+          🔥 Orange: How much radiant energy the detected fires release.<br>
+          Higher orange spikes mean greater detected fire activity.
+        </p>
+
+        <div id="comparison-chart"></div>
+      </section>
+    </div>
+  </div>
+
+  <script src="js/main.js?v=3"></script>
+  <script src="js/comparison.js?v=3"></script>
 </body>
 </html>
